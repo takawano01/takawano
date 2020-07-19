@@ -15,6 +15,7 @@
 		69329D2224C17EDB00D51B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69329D2024C17EDB00D51B3E /* LaunchScreen.storyboard */; };
 		69329D2D24C17EDB00D51B3E /* NameScoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69329D2C24C17EDB00D51B3E /* NameScoreAppTests.swift */; };
 		69329D3824C17EDB00D51B3E /* NameScoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69329D3724C17EDB00D51B3E /* NameScoreAppUITests.swift */; };
+		69D1BE5324C2CE8D00611E54 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D1BE5224C2CE8D00611E54 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		69329D3324C17EDB00D51B3E /* NameScoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NameScoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69329D3724C17EDB00D51B3E /* NameScoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameScoreAppUITests.swift; sourceTree = "<group>"; };
 		69329D3924C17EDB00D51B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D1BE5224C2CE8D00611E54 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				69329D1524C17ED400D51B3E /* AppDelegate.swift */,
 				69329D1724C17ED400D51B3E /* SceneDelegate.swift */,
 				69329D1924C17ED400D51B3E /* ViewController.swift */,
+				69D1BE5224C2CE8D00611E54 /* ResultViewController.swift */,
 				69329D1B24C17ED400D51B3E /* Main.storyboard */,
 				69329D1E24C17EDB00D51B3E /* Assets.xcassets */,
 				69329D2024C17EDB00D51B3E /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				69329D1A24C17ED400D51B3E /* ViewController.swift in Sources */,
 				69329D1624C17ED400D51B3E /* AppDelegate.swift in Sources */,
 				69329D1824C17ED400D51B3E /* SceneDelegate.swift in Sources */,
+				69D1BE5324C2CE8D00611E54 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCPZV87HU8;
 				INFOPLIST_FILE = NameScoreApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCPZV87HU8;
 				INFOPLIST_FILE = NameScoreApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
